@@ -1,0 +1,32 @@
+# Rust
+target/
+Cargo.lock  # ライブラリの場合のみ除外、バイナリの場合は含める
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 環境変数
+.env
+.env.local
+
+# ログ
+*.log
+
+# バックアップ
+*~
+*.bak
+
+# 一時ファイル
+*.tmp
+*.temp
+
+# Rust固有
+**/*.rs.bk
+*.pd
