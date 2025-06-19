@@ -30,3 +30,4 @@ Thumbs.db
 # Rust固有
 **/*.rs.bk
 *.pd
+mnt/NvVars
